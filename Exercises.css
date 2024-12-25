@@ -1,0 +1,30 @@
+header{
+    background-color: green;
+    overflow: hidden;
+    
+}
+main{
+    background-color: yellow;
+    flex-grow: 1;
+    padding: 20px;
+}
+nav{
+    background-color: red;
+    width: 180px;
+    padding: 20px;
+   
+}
+footer{
+    background-color: grey;
+    overflow: hidden;
+}
+
+#milieu{
+    display: flex;
+    flex-direction: row;
+}
+#exterieur{
+    width: 900px;
+    margin-left:auto;
+    margin-right: auto;
+}
